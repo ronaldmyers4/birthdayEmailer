@@ -4,7 +4,7 @@ import yagmail
 import pandas as pd
 import datetime
 
-df = pd.read_csv(r'C:\Users\r0m03qp\OneDrive - Walmart Inc\Administrative\birthday-calendar.csv')
+df = pd.read_csv(r'C:\Users\ronnie\birthday-calendar.csv')
 df['Start Date'] = df['Start Date'].astype(str)
 
 def extract_month(x):
